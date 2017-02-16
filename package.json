@@ -1,14 +1,14 @@
 {
   "name": "xenon-css-mode",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "uri": "gh:xenonapp/css-mode",
   "description": "CSS mode for Xenon",
   "files": [
-      "beautify-css.js",
-      "beautify.js",
-      "check.js",
-      "csslint.js",
-      "index.js"
+    "beautify-css.js",
+    "beautify.js",
+    "check.js",
+    "csslint.js",
+    "index.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
