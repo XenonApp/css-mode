@@ -1,5 +1,5 @@
 {
-  "name": "@xenon/css-mode",
+  "name": "xenon-css-mode",
   "version": "0.2.0",
   "uri": "gh:xenonapp/css-mode",
   "description": "CSS mode for Xenon",
