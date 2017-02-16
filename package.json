@@ -1,7 +1,7 @@
 {
     "name": "CSS Mode",
-    "uri": "gh:zedapp/css-mode",
-    "version": "0.1",
+    "uri": "gh:xenonapp/css-mode",
+    "version": "0.2",
     "description": "CSS mode for Zed",
     "files": [
         "beautify-css.js",
