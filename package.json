@@ -1,13 +1,29 @@
 {
-    "name": "CSS Mode",
-    "uri": "gh:xenonapp/css-mode",
-    "version": "0.2",
-    "description": "CSS mode for Zed",
-    "files": [
-        "beautify-css.js",
-        "beautify.js",
-        "check.js",
-        "csslint.js",
-        "index.js"
-    ]
+  "name": "@xenon/css-mode",
+  "version": "0.2.0",
+  "uri": "gh:xenonapp/css-mode",
+  "description": "CSS mode for Xenon",
+  "files": [
+      "beautify-css.js",
+      "beautify.js",
+      "check.js",
+      "csslint.js",
+      "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XenonApp/css-mode.git"
+  },
+  "keywords": [
+    "xenon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XenonApp/css-mode/issues"
+  },
+  "homepage": "https://github.com/XenonApp/css-mode#readme"
 }
