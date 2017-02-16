@@ -1,6 +1,6 @@
-var symbol = require("zed/symbol");
+var symbol = xenon.symbol;
 
-var util = require("zed/util");
+var util = xenon.util;
 var SEL_REGEX = /[\.#]([a-zA-Z0-9_\-\$]+)[\s\{\.]/g;
 
 return function(info) {
