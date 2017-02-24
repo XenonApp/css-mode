@@ -1,5 +1,7 @@
 const beautifier = require("./beautify-css.js");
-const beautify = require("zed/lib/beautify");
+
+// TODO: fix beautify
+// const beautify = require("zed/lib/beautify");
 
 /**
  * inputs: preferences
