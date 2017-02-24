@@ -1,7 +1,6 @@
 const beautifier = require("./beautify-css.js");
 
-// TODO: fix beautify
-// const beautify = require("zed/lib/beautify");
+const beautify = xenon.lib.beautify;
 
 /**
  * inputs: preferences
