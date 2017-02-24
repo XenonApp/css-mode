@@ -1,9 +1,10 @@
-var symbol = xenon.symbol;
+'use strict';
 
-var util = xenon.util;
-var SEL_REGEX = /[\.#]([a-zA-Z0-9_\-\$]+)[\s\{\.]/g;
+const symbol = xenon.symbol;
+const util = xenon.util;
+const SEL_REGEX = /[\.#]([a-zA-Z0-9_\-\$]+)[\s\{\.]/g;
 
-return function(info) {
+module.exports = function(info) {
     var match;
     var tags = [];
     var path = info.path;

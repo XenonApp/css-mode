@@ -1,5 +1,5 @@
-var beautifier = require("./beautify-css.js");
-var beautify = require("zed/lib/beautify");
+const beautifier = require("./beautify-css.js");
+const beautify = require("zed/lib/beautify");
 
 /**
  * inputs: preferences

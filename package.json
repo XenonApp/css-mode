@@ -1,29 +1,62 @@
 {
-  "name": "xenon-css-mode",
-  "version": "0.2.0",
-  "uri": "gh:xenonapp/css-mode",
-  "description": "CSS mode for Xenon",
-  "files": [
-      "beautify-css.js",
-      "beautify.js",
-      "check.js",
-      "csslint.js",
-      "index.js"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/XenonApp/css-mode.git"
-  },
-  "keywords": [
-    "xenon"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/XenonApp/css-mode/issues"
-  },
-  "homepage": "https://github.com/XenonApp/css-mode#readme"
+    "name": "xenon-css-mode",
+    "version": "0.2.0",
+    "main": "main.js",
+    "description": "CSS mode for Xenon",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/XenonApp/css-mode.git"
+    },
+    "keywords": [
+        "xenon"],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/XenonApp/css-mode/issues"
+    },
+    "homepage": "https://github.com/XenonApp/css-mode#readme",
+    "xenon": {
+        "modes": {
+            "css": {
+                "name": "CSS",
+                "highlighter": "ace/mode/css",
+                "extensions": [
+                    "css"],
+                "commands": {
+                    "Tools:Beautify": {
+                        "fn": "beautify",
+                        "inputs": {
+                            "preferences": true
+                        }
+                    },
+                    "Tools:Check": {
+                        "fn": "check",
+                        "options": {},
+                        "inputs": {
+                            "text": true
+                        },
+                        "internal": true,
+                        "sandbox": "check"
+                    },
+                    "Tools:Index": {
+                        "fn": "index",
+                        "inputs": {
+                            "text": true
+                        },
+                        "internal": true,
+                        "sandbox": "index"
+                    }
+                },
+                "handlers": {
+                    "check": [
+                        "Tools:Check"],
+                    "index": [
+                        "Tools:Index"]
+                }
+            }
+        }
+    }
 }
