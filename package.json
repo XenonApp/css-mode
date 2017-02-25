@@ -2,7 +2,7 @@
   "name": "xenon-css-tools",
   "version": "0.1.0",
   "main": "main.js",
-  "description": "CSS tools for Xenon.  Includes linting, beautifying and indexing",
+  "description": "CSS tools for Xenon.  Includes linting, beautifying and indexing.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
