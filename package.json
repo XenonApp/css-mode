@@ -1,6 +1,6 @@
 {
   "name": "xenon-css-tools",
-  "version": "1.2.0",
+  "version": "0.0.0",
   "main": "main.js",
   "description": "CSS tools for Xenon.  Includes linting, beautifying and indexing",
   "scripts": {
