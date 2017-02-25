@@ -1,32 +1,28 @@
 {
-  "name": "xenon-css-mode",
+  "name": "xenon-css-tools",
   "version": "1.1.0",
   "main": "main.js",
-  "description": "CSS mode for Xenon",
+  "description": "CSS tools for Xenon.  Includes linting, beautifying and indexing",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XenonApp/css-mode.git"
+    "url": "git+https://github.com/XenonApp/css-tools.git"
   },
   "keywords": [
-    "xenon"
+    "xenon",
+    "xenon-package"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/XenonApp/css-mode/issues"
+    "url": "https://github.com/XenonApp/css-tools/issues"
   },
-  "homepage": "https://github.com/XenonApp/css-mode#readme",
+  "homepage": "https://github.com/XenonApp/css-tools#readme",
   "xenon": {
     "modes": {
       "css": {
-        "name": "CSS",
-        "highlighter": "ace/mode/css",
-        "extensions": [
-          "css"
-        ],
         "commands": {
           "Tools:Beautify": {
             "fn": "beautify",
