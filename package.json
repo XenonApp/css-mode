@@ -19,44 +19,5 @@
   "bugs": {
     "url": "https://github.com/XenonApp/css-tools/issues"
   },
-  "homepage": "https://github.com/XenonApp/css-tools#readme",
-  "xenon": {
-    "modes": {
-      "css": {
-        "commands": {
-          "Tools:Beautify": {
-            "fn": "beautify",
-            "inputs": {
-              "preferences": true
-            }
-          },
-          "Tools:Check": {
-            "fn": "check",
-            "options": {},
-            "inputs": {
-              "text": true
-            },
-            "internal": true,
-            "sandbox": "check"
-          },
-          "Tools:Index": {
-            "fn": "index",
-            "inputs": {
-              "text": true
-            },
-            "internal": true,
-            "sandbox": "index"
-          }
-        },
-        "handlers": {
-          "check": [
-            "Tools:Check"
-          ],
-          "index": [
-            "Tools:Index"
-          ]
-        }
-      }
-    }
-  }
+  "homepage": "https://github.com/XenonApp/css-tools#readme"
 }
