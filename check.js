@@ -1,6 +1,6 @@
 'use strict';
 
-const CSSLint = require("./csslint.js").CSSLint;
+const CSSLint = require('csslint').CSSLint;
 
 /**
  * Inputs: text

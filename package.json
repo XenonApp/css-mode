@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/XenonApp/css-tools/issues"
   },
-  "homepage": "https://github.com/XenonApp/css-tools#readme"
+  "homepage": "https://github.com/XenonApp/css-tools#readme",
+  "dependencies": {
+    "csslint": "^1.0.5"
+  }
 }
